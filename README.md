@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Tabla de contenidos
+## Tabla de contenidos
 
 - [Características](#-características)
 - [Tecnologías utilizadas](#-tecnologías-utilizadas)
@@ -18,7 +18,7 @@
 
 ---
 
-## ✨ Características
+## Características
 
 - Inicio de sesión y registro de nuevos usuarios
 - Registro de reservas con selección de fecha y hora mediante calendario interactivo
@@ -44,7 +44,7 @@
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 coffee-manager-app/
@@ -68,7 +68,7 @@ coffee-manager-app/
 
 ---
 
-## 🧩 Módulos
+## Módulos
 
 ### `app.py` — Interfaz gráfica
 
@@ -139,14 +139,14 @@ Contiene las cuatro clases de ventana de la aplicación:
 
 ---
 
-## ⚙️ Requisitos previos
+## Requisitos previos
 
 - Python **3.10 o superior** (se utiliza `match/case`)
 - PyQt5
 
 ---
 
-## 🚀 Instalación y ejecución
+## Instalación y ejecución
 
 1. Clona el repositorio:
    ```bash
@@ -173,7 +173,7 @@ Contiene las cuatro clases de ventana de la aplicación:
 
 ---
 
-## 📖 Uso de la aplicación
+## Uso de la aplicación
 
 1. **Iniciar sesión** — Al abrir la app se solicita un usuario. Ingresa un nombre existente o regístrate con uno nuevo.
 2. **Registrar una reserva** — Selecciona una fecha en el calendario y una hora entre 07:00 y 16:59. El sistema evita horarios duplicados.
@@ -182,7 +182,7 @@ Contiene las cuatro clases de ventana de la aplicación:
 
 ---
 
-## 👤 Roles de usuario
+## Roles de usuario
 
 | Usuario | Permisos |
 |---|---|
@@ -192,7 +192,7 @@ Contiene las cuatro clases de ventana de la aplicación:
 
 ---
 
-## 💾 Almacenamiento de datos
+## Almacenamiento de datos
 
 Todos los datos se persisten en archivos de texto plano dentro de la carpeta `registros/`:
 
